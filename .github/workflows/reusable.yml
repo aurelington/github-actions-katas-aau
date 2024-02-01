@@ -22,4 +22,4 @@ jobs:
         id: time
         run: echo "time=$(date)" >> $GITHUB_OUTPUT
     outputs:
-      current-time: ${{ stpes.time.outputs.time }}
+      current-time: ${{ steps.time.outputs.time }}
