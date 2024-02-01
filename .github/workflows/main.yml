@@ -10,4 +10,4 @@ jobs:
       - name: Build
         run: ci/build-app.sh
       - name: Test
-        run: ci/test-app-sh
+        run: ci/unit-test-app-sh
